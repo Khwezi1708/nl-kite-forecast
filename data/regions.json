@@ -1,0 +1,76 @@
+{
+  "regions": [
+    {
+      "id": "zeeland",
+      "name": "Zeeland",
+      "bounds": {
+        "south": 51.25,
+        "north": 51.72,
+        "west": 3.3,
+        "east": 4.35
+      }
+    },
+    {
+      "id": "zuid-holland",
+      "name": "Zuid-Holland",
+      "bounds": {
+        "south": 51.85,
+        "north": 52.25,
+        "west": 3.95,
+        "east": 4.65
+      }
+    },
+    {
+      "id": "noord-holland",
+      "name": "Noord-Holland",
+      "bounds": {
+        "south": 52.25,
+        "north": 53.1,
+        "west": 4.5,
+        "east": 5.15
+      }
+    },
+    {
+      "id": "friesland",
+      "name": "Friesland & Waddeneilanden",
+      "bounds": {
+        "south": 52.85,
+        "north": 53.55,
+        "west": 4.7,
+        "east": 6.3
+      }
+    },
+    {
+      "id": "groningen",
+      "name": "Groningen",
+      "bounds": {
+        "south": 53.05,
+        "north": 53.55,
+        "west": 6.05,
+        "east": 7.05
+      }
+    },
+    {
+      "id": "flevoland",
+      "name": "Flevoland",
+      "bounds": {
+        "south": 52.3,
+        "north": 52.65,
+        "west": 5.05,
+        "east": 5.55
+      }
+    },
+    {
+      "id": "overijssel-gelderland",
+      "name": "Overijssel & Gelderland",
+      "bounds": {
+        "south": 52.05,
+        "north": 52.9,
+        "west": 5.55,
+        "east": 6.3
+      }
+    }
+  ],
+  "source": "NKV Spotkaart (toegestaan + beperkt spots only)",
+  "spot_count": 84
+}

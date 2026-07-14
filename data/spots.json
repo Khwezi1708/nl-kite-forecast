@@ -1,0 +1,2416 @@
+[
+  {
+    "id": "lelystad-bataviastrand",
+    "name": "Lelystad - Bataviastrand",
+    "lat": 52.524357,
+    "lon": 5.424342,
+    "region": "flevoland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/"
+  },
+  {
+    "id": "lelystad-trintelhaven",
+    "name": "Lelystad - Trintelhaven",
+    "lat": 52.636238,
+    "lon": 5.413053,
+    "region": "flevoland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "april t/m juli",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/"
+  },
+  {
+    "id": "ameland-noordzee",
+    "name": "Ameland - Noordzee",
+    "lat": 53.459965,
+    "lon": 5.741499,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/"
+  },
+  {
+    "id": "ameland-waddenzee",
+    "name": "Ameland - Waddenzee",
+    "lat": 53.439205,
+    "lon": 5.77345,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/"
+  },
+  {
+    "id": "harlingen-waddenzee",
+    "name": "Harlingen - Waddenzee",
+    "lat": 53.166355,
+    "lon": 5.415011,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/"
+  },
+  {
+    "id": "hindeloopen",
+    "name": "Hindeloopen",
+    "lat": 52.93354,
+    "lon": 5.403361,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/"
+  },
+  {
+    "id": "kornwerderzand",
+    "name": "Kornwerderzand",
+    "lat": 53.074985705594734,
+    "lon": 5.34412192065429,
+    "region": "friesland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S",
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "level": "advanced",
+    "openstelling": "mei t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/"
+  },
+  {
+    "id": "lauwersmeer",
+    "name": "Lauwersmeer",
+    "lat": 53.40750542014478,
+    "lon": 6.161479462763526,
+    "region": "friesland",
+    "policy": "restricted",
+    "good_directions": [
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "juni t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersmeer/"
+  },
+  {
+    "id": "lauwersoog-waddenzee",
+    "name": "Lauwersoog Waddenzee",
+    "lat": 53.408802,
+    "lon": 6.157198,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/"
+  },
+  {
+    "id": "makkum",
+    "name": "Makkum",
+    "lat": 53.05312,
+    "lon": 5.376227,
+    "region": "friesland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "level": "beginner",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/"
+  },
+  {
+    "id": "mirns",
+    "name": "Mirns",
+    "lat": 52.850101,
+    "lon": 5.481972,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S",
+      "SE",
+      "E"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/"
+  },
+  {
+    "id": "schiermonnikoog-noordzee-paal-3-5",
+    "name": "Schiermonnikoog (Noordzee: Paal 3-5)",
+    "lat": 53.504333,
+    "lon": 6.180988,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/"
+  },
+  {
+    "id": "stavoren-it-suderstrand",
+    "name": "Stavoren - it Suderstrand",
+    "lat": 52.87193795015575,
+    "lon": 5.369856820778169,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/"
+  },
+  {
+    "id": "terschelling-groene-strand",
+    "name": "Terschelling - Groene Strand",
+    "lat": 53.355141,
+    "lon": 5.21029,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/"
+  },
+  {
+    "id": "terschelling-noordzee",
+    "name": "Terschelling - Noordzee",
+    "lat": 53.409386,
+    "lon": 5.280458,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/"
+  },
+  {
+    "id": "vlieland-noordzee",
+    "name": "Vlieland Noordzee",
+    "lat": 53.304478,
+    "lon": 5.048718,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/"
+  },
+  {
+    "id": "workum",
+    "name": "Workum",
+    "lat": 52.965973,
+    "lon": 5.410585,
+    "region": "friesland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/workum/"
+  },
+  {
+    "id": "delfzijl",
+    "name": "Delfzijl",
+    "lat": 53.33453,
+    "lon": 6.931337,
+    "region": "groningen",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/"
+  },
+  {
+    "id": "midwolda-oldambtmeer",
+    "name": "Midwolda Oldambtmeer",
+    "lat": 53.193245,
+    "lon": 7.027293,
+    "region": "groningen",
+    "policy": "restricted",
+    "good_directions": [
+      "SE",
+      "E"
+    ],
+    "windrichtingen": [
+      "Zuidoost",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/"
+  },
+  {
+    "id": "zuidlaardermeer",
+    "name": "Zuidlaardermeer",
+    "lat": 53.145409,
+    "lon": 6.693851,
+    "region": "groningen",
+    "policy": "allowed",
+    "good_directions": [
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/"
+  },
+  {
+    "id": "almere",
+    "name": "Almere",
+    "lat": 52.34747029479037,
+    "lon": 5.1335594920654115,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/almere/"
+  },
+  {
+    "id": "amstelmeer-lutjestrand-zuid",
+    "name": "Amstelmeer Lutjestrand zuid",
+    "lat": 52.885124923080426,
+    "lon": 4.9165667510045985,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/"
+  },
+  {
+    "id": "bergen-aan-zee",
+    "name": "Bergen aan Zee",
+    "lat": 52.658703,
+    "lon": 4.626903,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/"
+  },
+  {
+    "id": "bloemendaal-aan-zee",
+    "name": "Bloemendaal aan Zee",
+    "lat": 52.416317,
+    "lon": 4.549245,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/"
+  },
+  {
+    "id": "callantsoog",
+    "name": "Callantsoog",
+    "lat": 52.840599,
+    "lon": 4.691325,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/"
+  },
+  {
+    "id": "camperduin",
+    "name": "Camperduin",
+    "lat": 52.7283090428019,
+    "lon": 4.639765275146468,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/camperduin/"
+  },
+  {
+    "id": "castricum-aan-zee",
+    "name": "Castricum aan Zee",
+    "lat": 52.556786,
+    "lon": 4.605667,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/"
+  },
+  {
+    "id": "den-helder-huisduinen",
+    "name": "Den Helder - Huisduinen",
+    "lat": 52.953239,
+    "lon": 4.720852,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/"
+  },
+  {
+    "id": "edam-noord-galgenveld",
+    "name": "Edam Noord - Galgenveld",
+    "lat": 52.52256,
+    "lon": 5.067095,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Expert"
+    ],
+    "level": "expert",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/"
+  },
+  {
+    "id": "egmond-binnen-aan-zee",
+    "name": "Egmond Binnen/aan Zee",
+    "lat": 52.613762,
+    "lon": 4.616011,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/"
+  },
+  {
+    "id": "ijmuiden-zone-1-gem-velsen",
+    "name": "IJmuiden Zone 1 (gem. Velsen)",
+    "lat": 52.456356,
+    "lon": 4.551214,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/"
+  },
+  {
+    "id": "ijmuiden-zone-2-gem-velsen",
+    "name": "IJmuiden Zone 2 (gem. Velsen)",
+    "lat": 52.45534760270165,
+    "lon": 4.556021537228991,
+    "region": "noord-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "oktober t/m maart",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/"
+  },
+  {
+    "id": "ijmuiderslag-gem-velsen",
+    "name": "IJmuiderslag (gem. Velsen)",
+    "lat": 52.446941,
+    "lon": 4.555163,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/"
+  },
+  {
+    "id": "julianadorp",
+    "name": "Julianadorp",
+    "lat": 52.895462,
+    "lon": 4.711245,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/"
+  },
+  {
+    "id": "medemblik",
+    "name": "Medemblik",
+    "lat": 52.755039,
+    "lon": 5.125001,
+    "region": "noord-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "april t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/"
+  },
+  {
+    "id": "muiderberg",
+    "name": "Muiderberg",
+    "lat": 52.329876,
+    "lon": 5.113459,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/"
+  },
+  {
+    "id": "petten-pettemer-zeewering",
+    "name": "Petten (Pettemer Zeewering)",
+    "lat": 52.763783,
+    "lon": 4.649366,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/petten/"
+  },
+  {
+    "id": "schellinkhout",
+    "name": "Schellinkhout",
+    "lat": 52.632278,
+    "lon": 5.120788,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/"
+  },
+  {
+    "id": "texel-dijkmanshuizen-wadzijde",
+    "name": "Texel - Dijkmanshuizen (Wadzijde)",
+    "lat": 53.064888,
+    "lon": 4.873644,
+    "region": "noord-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "S",
+      "SE",
+      "E"
+    ],
+    "windrichtingen": [
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "april t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/"
+  },
+  {
+    "id": "texel-paal-17-6-18-99-en-28-2-32",
+    "name": "Texel Paal 17.6 - 18.99 en 28.2 - 32",
+    "lat": 53.078442,
+    "lon": 4.731828,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel/"
+  },
+  {
+    "id": "warder",
+    "name": "Warder",
+    "lat": 52.565662,
+    "lon": 5.033157,
+    "region": "noord-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "april t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/warder/"
+  },
+  {
+    "id": "wijk-aan-zee-pier-strand-noordpier-velsen-noord",
+    "name": "Wijk aan Zee - Pier (Strand Noordpier Velsen-Noord)",
+    "lat": 52.471031,
+    "lon": 4.565752,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/"
+  },
+  {
+    "id": "wijk-aan-zee-de-hangout-strand-noordpier-velsen-noord",
+    "name": "Wijk aan Zee - de HangOut (Strand Noordpier Velsen-Noord)",
+    "lat": 52.48253093941438,
+    "lon": 4.577510158752451,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-hangout/"
+  },
+  {
+    "id": "zandvoort",
+    "name": "Zandvoort",
+    "lat": 52.365335113481585,
+    "lon": 4.519105687744145,
+    "region": "noord-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/"
+  },
+  {
+    "id": "brouwersdam",
+    "name": "Brouwersdam",
+    "lat": 51.760532,
+    "lon": 3.842414,
+    "region": "other",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/"
+  },
+  {
+    "id": "enkhuizen",
+    "name": "Enkhuizen",
+    "lat": 52.714832,
+    "lon": 5.288304,
+    "region": "other",
+    "policy": "restricted",
+    "good_directions": [
+      "SE",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "oktober t/m maart",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/"
+  },
+  {
+    "id": "hellevoetsluis-haringvliet",
+    "name": "Hellevoetsluis - Haringvliet",
+    "lat": 51.82063570886251,
+    "lon": 4.159093814880372,
+    "region": "other",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/"
+  },
+  {
+    "id": "noordwijk-langevelderslag",
+    "name": "Noordwijk Langevelderslag",
+    "lat": 52.301853,
+    "lon": 4.473199,
+    "region": "other",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/"
+  },
+  {
+    "id": "ouddorp",
+    "name": "Ouddorp",
+    "lat": 51.82172,
+    "lon": 3.878164,
+    "region": "other",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/"
+  },
+  {
+    "id": "elburg",
+    "name": "Elburg",
+    "lat": 52.455063,
+    "lon": 5.817958,
+    "region": "overijssel-gelderland",
+    "policy": "restricted",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "april t/m september",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/"
+  },
+  {
+    "id": "lemmer",
+    "name": "Lemmer",
+    "lat": 52.843899,
+    "lon": 5.692941,
+    "region": "overijssel-gelderland",
+    "policy": "restricted",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/"
+  },
+  {
+    "id": "strand-horst",
+    "name": "Strand Horst",
+    "lat": 52.32291,
+    "lon": 5.570562,
+    "region": "overijssel-gelderland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/"
+  },
+  {
+    "id": "baarland",
+    "name": "Baarland",
+    "lat": 51.394135,
+    "lon": 3.896531,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "SW",
+      "S",
+      "SE",
+      "E"
+    ],
+    "windrichtingen": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/"
+  },
+  {
+    "id": "borssele-de-kaloot",
+    "name": "Borssele (de Kaloot)",
+    "lat": 51.433178,
+    "lon": 3.709353,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/"
+  },
+  {
+    "id": "breskens-oost",
+    "name": "Breskens Oost",
+    "lat": 51.40062194272245,
+    "lon": 3.559299638623048,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/"
+  },
+  {
+    "id": "cadzand-bad-vlamingpolder",
+    "name": "Cadzand-bad - Vlamingpolder",
+    "lat": 51.385365,
+    "lon": 3.404863,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/"
+  },
+  {
+    "id": "cadzand-bad-west",
+    "name": "Cadzand-bad - West",
+    "lat": 51.373165,
+    "lon": 3.368118,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/"
+  },
+  {
+    "id": "domburg",
+    "name": "Domburg",
+    "lat": 51.552254,
+    "lon": 3.461647,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Expert"
+    ],
+    "level": "expert",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/"
+  },
+  {
+    "id": "grevelingendam-noord",
+    "name": "Grevelingendam - Noord",
+    "lat": 51.679256,
+    "lon": 4.137328,
+    "region": "zeeland",
+    "policy": "restricted",
+    "good_directions": [
+      "N",
+      "NW",
+      "E"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "15 maart - 1 november",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/"
+  },
+  {
+    "id": "grevelingendam-zuid",
+    "name": "Grevelingendam - Zuid",
+    "lat": 51.674713,
+    "lon": 4.13996,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/"
+  },
+  {
+    "id": "kamperland-roompot-xbeach",
+    "name": "Kamperland - Roompot XBeach",
+    "lat": 51.592909111403124,
+    "lon": 3.7313782540283214,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "E"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/"
+  },
+  {
+    "id": "neeltje-jans",
+    "name": "Neeltje Jans",
+    "lat": 51.62424172138486,
+    "lon": 3.680559354492172,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/"
+  },
+  {
+    "id": "ouwerkerk",
+    "name": "Ouwerkerk",
+    "lat": 51.616791,
+    "lon": 3.961531,
+    "region": "zeeland",
+    "policy": "restricted",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S",
+      "SE"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/"
+  },
+  {
+    "id": "paulinapolder",
+    "name": "Paulinapolder",
+    "lat": 51.350422,
+    "lon": 3.731831,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/"
+  },
+  {
+    "id": "terneuzen-put-van",
+    "name": "Terneuzen (put van)",
+    "lat": 51.337162,
+    "lon": 3.839594,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/"
+  },
+  {
+    "id": "tholen-oesterdam",
+    "name": "Tholen Oesterdam",
+    "lat": 51.460934,
+    "lon": 4.221407,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/"
+  },
+  {
+    "id": "vrouwenpolder",
+    "name": "Vrouwenpolder",
+    "lat": 51.591873,
+    "lon": 3.632949,
+    "region": "zeeland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "W",
+      "E",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "West",
+      "Oost",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/"
+  },
+  {
+    "id": "den-haag-zuiderstrand",
+    "name": "Den Haag - Zuiderstrand",
+    "lat": 52.09388607350487,
+    "lon": 4.249607984130859,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/"
+  },
+  {
+    "id": "hoek-van-holland-hoekse-watersport-vereniging",
+    "name": "Hoek van Holland, Hoekse Watersport Vereniging",
+    "lat": 51.99180432944537,
+    "lon": 4.114208221435547,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/"
+  },
+  {
+    "id": "katwijk",
+    "name": "Katwijk",
+    "lat": 52.201435,
+    "lon": 4.386593,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/"
+  },
+  {
+    "id": "kijkduin",
+    "name": "Kijkduin",
+    "lat": 52.066525,
+    "lon": 4.21192,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/"
+  },
+  {
+    "id": "kijkduin-zandmotor",
+    "name": "Kijkduin - Zandmotor",
+    "lat": 52.05520313862568,
+    "lon": 4.186521291015639,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/"
+  },
+  {
+    "id": "maasvlakte-2-slufter",
+    "name": "Maasvlakte 2 - Slufter",
+    "lat": 51.919079,
+    "lon": 3.988189,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/"
+  },
+  {
+    "id": "maasvlakte-2-spot-p1-t-m-p3",
+    "name": "Maasvlakte 2 - Spot P1 t/m P3",
+    "lat": 51.923229,
+    "lon": 3.980946,
+    "region": "zuid-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/"
+  },
+  {
+    "id": "noordwijk-aan-zee",
+    "name": "Noordwijk aan Zee",
+    "lat": 52.235806,
+    "lon": 4.418844,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/"
+  },
+  {
+    "id": "oostvoorne-noordzee",
+    "name": "Oostvoorne Noordzee",
+    "lat": 51.9151368,
+    "lon": 4.0605978,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/"
+  },
+  {
+    "id": "oostvoornse-meer",
+    "name": "Oostvoornse meer",
+    "lat": 51.92918,
+    "lon": 4.066458,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "W",
+      "SW",
+      "S",
+      "SE",
+      "E"
+    ],
+    "windrichtingen": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/"
+  },
+  {
+    "id": "rockanje-badstrand",
+    "name": "Rockanje Badstrand",
+    "lat": 51.865685260091375,
+    "lon": 4.0513472685071905,
+    "region": "zuid-holland",
+    "policy": "restricted",
+    "good_directions": [
+      "NW",
+      "W",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "level": "beginner",
+    "openstelling": "oktober t/m april",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/"
+  },
+  {
+    "id": "rockanje-sportstrand",
+    "name": "Rockanje Sportstrand",
+    "lat": 51.8722925148425,
+    "lon": 4.044898266162127,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "NW",
+      "SW",
+      "S"
+    ],
+    "windrichtingen": [
+      "Noordwest",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "level": "beginner",
+    "openstelling": "het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/"
+  },
+  {
+    "id": "scheveningen-noorderstrand",
+    "name": "Scheveningen - Noorderstrand",
+    "lat": 52.105083,
+    "lon": 4.26353,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/"
+  },
+  {
+    "id": "scheveningen-zwarte-pad",
+    "name": "Scheveningen - Zwarte Pad",
+    "lat": 52.1173477,
+    "lon": 4.2894255,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW",
+      "NE"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/"
+  },
+  {
+    "id": "wassenaarse-slag",
+    "name": "Wassenaarse slag",
+    "lat": 52.163361,
+    "lon": 4.34611,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/"
+  },
+  {
+    "id": "windsurfing-hoek-van-holland",
+    "name": "Windsurfing Hoek van Holland",
+    "lat": 51.992015738236034,
+    "lon": 4.114798307418823,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/"
+  },
+  {
+    "id": "s-gravenzande-slag-beukel",
+    "name": "s-Gravenzande (slag Beukel)",
+    "lat": 52.01080376683954,
+    "lon": 4.138953867736808,
+    "region": "zuid-holland",
+    "policy": "allowed",
+    "good_directions": [
+      "N",
+      "NW",
+      "W",
+      "SW"
+    ],
+    "windrichtingen": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "level": "advanced",
+    "openstelling": "Het hele jaar",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/s-gravenzande-slag-beukel/"
+  }
+]

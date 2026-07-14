@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NL Kite Spot Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
+</head>
+<body class="map-page">
+  <header class="header map-header">
+    <div class="header-text">
+      <h1>NL Kite Spot Map</h1>
+      <p class="last-updated">
+        Last updated: <strong>{{ map_data.last_updated_display }}</strong>
+        {% if not map_data.cache_is_fresh %}
+        <span class="stale-badge">stale — refresh recommended</span>
+        {% endif %}
+      </p>
+    </div>
+    <div class="header-actions">
+      <form class="refresh-form" action="{{ url_for('refresh') }}" method="post">
+        <button type="submit" class="btn-refresh" id="refresh-btn">Refresh now</button>
+      </form>
+    </div>
+  </header>
+
+  <div class="map-layout">
+    <aside class="sidebar">
+      <section class="sidebar-section">
+        <label for="region-select" class="sidebar-label">Region</label>
+        <select id="region-select" class="region-select">
+          <option value="all">All Netherlands</option>
+          {% for region in regions %}
+          <option value="{{ region.id }}">{{ region.name }}</option>
+          {% endfor %}
+          <option value="other">Overig</option>
+        </select>
+      </section>
+
+      <section class="sidebar-section region-summary" id="region-summary">
+        <h2 id="region-title">All Netherlands</h2>
+        <p class="region-verdict" id="region-verdict">Select a region to see go/no-go advice.</p>
+        <ul class="region-spot-list" id="region-spot-list"></ul>
+      </section>
+
+      <section class="sidebar-section spot-detail hidden" id="spot-detail">
+        <button type="button" class="back-btn" id="spot-back">← Back to region</button>
+        <h2 id="spot-name"></h2>
+        <dl class="spot-info" id="spot-info"></dl>
+        <div class="spot-verdict" id="spot-verdict"></div>
+        <div class="spot-stats" id="spot-stats"></div>
+        <div class="spot-window" id="spot-window"></div>
+        <table class="spot-days-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Wind</th>
+              <th>Gust</th>
+              <th>Dir</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="spot-days-body"></tbody>
+        </table>
+        <a class="spot-link hidden" id="spot-link" href="#" target="_blank" rel="noreferrer">View on NKV spotkaart →</a>
+      </section>
+
+      <p class="sidebar-note">Green = go · Yellow = maybe · Red = no-go · Next {{ map_data.forecast_days }} days</p>
+    </aside>
+
+    <div id="map" class="map-container" aria-label="Kitesurf spots map"></div>
+  </div>
+
+  <script>
+    window.MAP_BOOTSTRAP = {{ map_data | tojson }};
+  </script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="{{ url_for('static', filename='map.js') }}"></script>
+</body>
+</html>

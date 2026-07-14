@@ -1,0 +1,313 @@
+.map-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.map-header {
+  flex-shrink: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.stale-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: var(--marginal-bg);
+  color: var(--marginal);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.map-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(280px, 340px) 1fr;
+  min-height: 0;
+}
+
+.sidebar {
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.sidebar-section {
+  margin-bottom: 1rem;
+}
+
+.sidebar-label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.region-select {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.region-summary h2,
+.spot-detail h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.region-verdict {
+  margin: 0 0 0.75rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.region-spot-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.region-spot-list li {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  margin-bottom: 0.45rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.region-spot-list li:hover {
+  background: var(--highlight);
+}
+
+.region-spot-list .spot-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.region-spot-list .spot-days {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.spot-detail.hidden {
+  display: none;
+}
+
+.back-btn {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 0.65rem;
+  cursor: pointer;
+}
+
+.spot-info {
+  margin: 0 0 0.85rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.spot-info-row {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+}
+
+.spot-info dt {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.spot-info dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.spot-meta {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.spot-verdict {
+  border-radius: 8px;
+  padding: 0.65rem 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.spot-verdict.good {
+  background: var(--good-bg);
+  color: var(--good);
+}
+
+.spot-verdict.marginal {
+  background: var(--marginal-bg);
+  color: var(--marginal);
+}
+
+.spot-verdict.nogo {
+  background: var(--nogo-bg);
+  color: var(--nogo);
+}
+
+.spot-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
+}
+
+.stat-box {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.45rem;
+  text-align: center;
+}
+
+.stat-box .stat-value {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.stat-box .stat-label {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.spot-window {
+  background: var(--highlight);
+  border-radius: 8px;
+  padding: 0.65rem 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.spot-days-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+
+.spot-days-table th,
+.spot-days-table td {
+  border-bottom: 1px solid var(--border);
+  padding: 0.35rem 0.25rem;
+  text-align: left;
+}
+
+.spot-link {
+  font-size: 0.88rem;
+  color: var(--accent);
+}
+
+.spot-link.hidden {
+  display: none;
+}
+
+.sidebar-note {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.map-container {
+  min-height: 0;
+  height: 100%;
+}
+
+.spot-marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.spot-marker.good {
+  background: var(--good);
+}
+
+.spot-marker.marginal {
+  background: var(--marginal);
+}
+
+.spot-marker.nogo {
+  background: var(--nogo);
+}
+
+.spot-marker.selected {
+  transform: scale(1.35);
+  border-color: #1a2332;
+}
+
+.leaflet-popup-content {
+  margin: 0.55rem 0.75rem;
+  font-size: 0.88rem;
+}
+
+.popup-title {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.popup-info {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.2rem;
+}
+
+.popup-status {
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .map-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 42vh 1fr;
+  }
+
+  .sidebar {
+    order: 2;
+    border-right: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .map-container {
+    order: 1;
+    min-height: 42vh;
+  }
+}

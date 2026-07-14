@@ -8,7 +8,7 @@ from datetime import datetime
 
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
-from flask import Flask, jsonify, redirect, render_template, request, url_for
+from flask import Flask, jsonify, redirect, render_template, request, send_from_directory, url_for
 
 from forecast_engine import (
     MAP_CACHE_PATH,
@@ -97,6 +97,23 @@ def refresh():
 @app.get("/health")
 def health():
     return jsonify({"status": "ok"})
+
+
+@app.get("/manifest.webmanifest")
+def manifest():
+    return send_from_directory(
+        app.static_folder,
+        "manifest.webmanifest",
+        mimetype="application/manifest+json",
+    )
+
+
+@app.get("/sw.js")
+def service_worker():
+    response = send_from_directory(app.static_folder, "sw.js", mimetype="application/javascript")
+    response.headers["Cache-Control"] = "no-cache"
+    response.headers["Service-Worker-Allowed"] = "/"
+    return response
 
 
 def bootstrap_services() -> None:

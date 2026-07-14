@@ -30,6 +30,23 @@ The repo includes a seed `map_forecast_cache.json` so the map works immediately.
 
 **Free tier notes:** the service sleeps after ~15 min idle (cold start ~30–60 s). Disk is ephemeral — redeploys clear the API cache in `.cache/`, but the committed forecast seed reloads on boot.
 
+## Mobile and PWA
+
+The map is responsive on phones and tablets:
+
+- **Full-screen map** with a **slide-up bottom sheet** for region filter, spot list, and forecast detail
+- Tap the sheet handle to expand/collapse; tap the dimmed map backdrop to collapse
+- Touch-friendly controls (44px tap targets, larger markers)
+
+**Install as an app (Add to Home Screen):**
+
+- **iPhone (Safari):** Share → **Add to Home Screen**
+- **Android (Chrome):** Menu → **Install app** or **Add to Home screen**
+
+Once installed, the app opens in standalone mode with the NL Kite icon.
+
+**Offline behavior:** after one visit, the app shell and last-loaded forecast data are cached. Map tiles still need a network connection. Use **Refresh now** when back online to update forecasts.
+
 ### Production run locally
 
 ```bash
@@ -70,6 +87,10 @@ kite/
 ├── data/spots.json
 ├── templates/map.html
 ├── static/map.js
+├── static/map.css
+├── static/manifest.webmanifest
+├── static/sw.js
+├── static/icons/
 └── map_forecast_cache.json
 ```
 

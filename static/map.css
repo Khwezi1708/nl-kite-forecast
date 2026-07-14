@@ -1,5 +1,6 @@
 .map-page {
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -7,6 +8,8 @@
 
 .map-header {
   flex-shrink: 0;
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
 }
 
 .header-actions {
@@ -42,6 +45,7 @@
   display: grid;
   grid-template-columns: minmax(280px, 340px) 1fr;
   min-height: 0;
+  position: relative;
 }
 
 .sidebar {
@@ -49,6 +53,14 @@
   border-right: 1px solid var(--border);
   padding: 1rem;
   overflow-y: auto;
+}
+
+.sheet-backdrop {
+  display: none;
+}
+
+.sheet-handle {
+  display: none;
 }
 
 .sidebar-section {
@@ -69,6 +81,7 @@
   padding: 0.55rem 0.65rem;
   font-size: 0.95rem;
   background: #fff;
+  min-height: 44px;
 }
 
 .region-summary h2,
@@ -99,6 +112,7 @@
   justify-content: space-between;
   gap: 0.5rem;
   align-items: center;
+  min-height: 44px;
 }
 
 .region-spot-list li:hover {
@@ -125,9 +139,10 @@
   background: none;
   color: var(--accent);
   font-weight: 600;
-  padding: 0;
+  padding: 0.5rem 0;
   margin-bottom: 0.65rem;
   cursor: pointer;
+  min-height: 44px;
 }
 
 .spot-info {
@@ -215,11 +230,15 @@
   font-size: 0.88rem;
 }
 
+.spot-days-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 0.75rem;
+}
+
 .spot-days-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.82rem;
-  margin-bottom: 0.75rem;
 }
 
 .spot-days-table th,
@@ -232,6 +251,9 @@
 .spot-link {
   font-size: 0.88rem;
   color: var(--accent);
+  display: inline-block;
+  min-height: 44px;
+  line-height: 44px;
 }
 
 .spot-link.hidden {
@@ -294,20 +316,173 @@
   font-weight: 600;
 }
 
-@media (max-width: 900px) {
-  .map-layout {
-    grid-template-columns: 1fr;
-    grid-template-rows: 42vh 1fr;
+@media (max-width: 768px) {
+  .map-page {
+    padding-bottom: env(safe-area-inset-bottom);
   }
 
-  .sidebar {
-    order: 2;
-    border-right: none;
-    border-top: 1px solid var(--border);
+  .map-header {
+    padding-top: max(0.75rem, env(safe-area-inset-top));
+    padding-bottom: 0.75rem;
+  }
+
+  .map-layout {
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
 
   .map-container {
+    flex: 1;
     order: 1;
-    min-height: 42vh;
+    min-height: 0;
+    z-index: 1;
+  }
+
+  .sheet-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.35);
+    z-index: 20;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .sheet-backdrop.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .sidebar.bottom-sheet {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    order: 2;
+    border-right: none;
+    border-top: 1px solid var(--border);
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 24px rgba(26, 35, 50, 0.12);
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100dvh - 3.5rem);
+    padding-bottom: env(safe-area-inset-bottom);
+    transition: transform 0.28s ease;
+    will-change: transform;
+  }
+
+  .sidebar.bottom-sheet.is-collapsed {
+    transform: translateY(calc(100% - 7.5rem));
+  }
+
+  .sidebar.bottom-sheet.is-expanded {
+    transform: translateY(0);
+  }
+
+  .sheet-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0.65rem 0 0.45rem;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .sheet-handle:active {
+    cursor: grabbing;
+  }
+
+  .sheet-handle-bar {
+    display: block;
+    width: 2.5rem;
+    height: 0.3rem;
+    border-radius: 999px;
+    background: var(--border);
+  }
+
+  .sheet-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 1rem 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sidebar.bottom-sheet.is-collapsed .sheet-content {
+    overflow: hidden;
+  }
+
+  .sidebar.bottom-sheet.is-collapsed .sidebar-section:first-child,
+  .sidebar.bottom-sheet.is-collapsed .region-verdict,
+  .sidebar.bottom-sheet.is-collapsed .region-spot-list,
+  .sidebar.bottom-sheet.is-collapsed .sidebar-note {
+    display: none;
+  }
+
+  .sidebar.bottom-sheet.is-collapsed .region-summary h2 {
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .spot-marker {
+    width: 20px;
+    height: 20px;
+  }
+
+  .spot-info-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .spot-days-table thead {
+    display: none;
+  }
+
+  .spot-days-table tbody tr {
+    display: block;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .spot-days-table tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  .spot-days-table td {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.3rem 0;
+    border: none;
+  }
+
+  .spot-days-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 769px) {
+  .sidebar.bottom-sheet {
+    position: static;
+    transform: none !important;
+    border-radius: 0;
+    box-shadow: none;
+    max-height: none;
+    display: block;
+  }
+
+  .sheet-content {
+    padding: 0;
   }
 }

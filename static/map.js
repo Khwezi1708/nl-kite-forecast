@@ -7,16 +7,120 @@
   const regionSummary = document.getElementById("region-summary");
   const spotDetail = document.getElementById("spot-detail");
   const spotBack = document.getElementById("spot-back");
+  const bottomSheet = document.getElementById("bottom-sheet");
+  const sheetBackdrop = document.getElementById("sheet-backdrop");
+  const sheetHandle = document.getElementById("sheet-handle");
 
+  const mobileQuery = window.matchMedia("(max-width: 768px)");
   let currentRegion = "all";
   let selectedSpotId = null;
   let markersById = {};
+  let sheetState = "collapsed";
 
-  const map = L.map("map", { scrollWheelZoom: true }).setView([52.2, 5.3], 7);
+  const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  const map = L.map("map", {
+    scrollWheelZoom: !isTouchDevice,
+    tap: true,
+  }).setView([52.2, 5.3], 7);
+
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
+
+  function isMobile() {
+    return mobileQuery.matches;
+  }
+
+  function invalidateMapSize() {
+    window.setTimeout(() => map.invalidateSize(), 320);
+  }
+
+  function setSheetState(state) {
+    if (!isMobile() || !bottomSheet) {
+      return;
+    }
+    sheetState = state;
+    bottomSheet.classList.remove("is-collapsed", "is-expanded");
+    bottomSheet.classList.add(state === "expanded" ? "is-expanded" : "is-collapsed");
+
+    if (sheetBackdrop) {
+      sheetBackdrop.classList.toggle("hidden", state !== "expanded");
+      sheetBackdrop.classList.toggle("is-visible", state === "expanded");
+      sheetBackdrop.setAttribute("aria-hidden", state !== "expanded");
+    }
+
+    invalidateMapSize();
+  }
+
+  function expandSheet() {
+    setSheetState("expanded");
+  }
+
+  function collapseSheet() {
+    setSheetState("collapsed");
+  }
+
+  function toggleSheet() {
+    setSheetState(sheetState === "expanded" ? "collapsed" : "expanded");
+  }
+
+  function initBottomSheet() {
+    if (!bottomSheet) {
+      return;
+    }
+
+    if (isMobile()) {
+      setSheetState("collapsed");
+    } else {
+      bottomSheet.classList.remove("is-collapsed", "is-expanded");
+      if (sheetBackdrop) {
+        sheetBackdrop.classList.add("hidden");
+        sheetBackdrop.classList.remove("is-visible");
+      }
+    }
+
+    sheetHandle?.addEventListener("click", toggleSheet);
+    sheetHandle?.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        toggleSheet();
+      }
+    });
+
+    sheetBackdrop?.addEventListener("click", collapseSheet);
+
+    let dragStartY = 0;
+
+    sheetHandle?.addEventListener("touchstart", (event) => {
+      dragStartY = event.touches[0].clientY;
+    }, { passive: true });
+
+    sheetHandle?.addEventListener("touchend", (event) => {
+      const deltaY = event.changedTouches[0].clientY - dragStartY;
+      if (Math.abs(deltaY) < 24) {
+        return;
+      }
+      if (deltaY > 0) {
+        collapseSheet();
+      } else {
+        expandSheet();
+      }
+    }, { passive: true });
+
+    mobileQuery.addEventListener("change", () => {
+      if (isMobile()) {
+        setSheetState(sheetState);
+      } else {
+        bottomSheet.classList.remove("is-collapsed", "is-expanded");
+        if (sheetBackdrop) {
+          sheetBackdrop.classList.add("hidden");
+          sheetBackdrop.classList.remove("is-visible");
+        }
+        invalidateMapSize();
+      }
+    });
+  }
 
   function badgeClass(status) {
     if (status === "good") return "good";
@@ -45,11 +149,13 @@
   }
 
   function markerIcon(status, selected) {
+    const size = isMobile() ? 20 : 16;
+    const anchor = size / 2;
     return L.divIcon({
       className: "",
       html: `<div class="spot-marker ${status}${selected ? " selected" : ""}"></div>`,
-      iconSize: [16, 16],
-      iconAnchor: [8, 8],
+      iconSize: [size, size],
+      iconAnchor: [anchor, anchor],
     });
   }
 
@@ -155,6 +261,10 @@
     regionSummary.classList.add("hidden");
     spotDetail.classList.remove("hidden");
 
+    if (isMobile()) {
+      expandSheet();
+    }
+
     document.getElementById("spot-name").textContent = spot.name;
     document.getElementById("spot-info").innerHTML = spotInfoHtml(spot);
 
@@ -179,18 +289,18 @@
     tbody.innerHTML = "";
     spot.days.forEach((day) => {
       const tr = document.createElement("tr");
-      const badgeClass =
+      const dayBadgeClass =
         day.suitability === "Good"
           ? "good"
           : day.suitability === "Marginal"
             ? "marginal"
             : "no-go";
       tr.innerHTML = `
-        <td>${day.date_display}</td>
-        <td>${day.avg_wind_kts != null ? `${day.avg_wind_kts} kn` : "—"}</td>
-        <td>${day.max_gust_kts != null ? `${day.max_gust_kts} kn` : "—"}</td>
-        <td>${day.direction_display || "—"}</td>
-        <td><span class="badge badge-${badgeClass}">${day.suitability}</span></td>
+        <td data-label="Date">${day.date_display}</td>
+        <td data-label="Wind">${day.avg_wind_kts != null ? `${day.avg_wind_kts} kn` : "—"}</td>
+        <td data-label="Gust">${day.max_gust_kts != null ? `${day.max_gust_kts} kn` : "—"}</td>
+        <td data-label="Dir">${day.direction_display || "—"}</td>
+        <td data-label="Status"><span class="badge badge-${dayBadgeClass}">${day.suitability}</span></td>
       `;
       tbody.appendChild(tr);
     });
@@ -211,12 +321,18 @@
     spotDetail.classList.add("hidden");
     regionSummary.classList.remove("hidden");
     renderMarkers();
+    if (isMobile()) {
+      expandSheet();
+    }
   }
 
   regionSelect.addEventListener("change", () => {
     currentRegion = regionSelect.value;
     showRegionView();
     renderRegionSummary();
+    if (isMobile()) {
+      expandSheet();
+    }
   });
 
   spotBack.addEventListener("click", showRegionView);
@@ -227,6 +343,16 @@
     btn.textContent = "Refreshing…";
   });
 
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(invalidateMapSize, 150);
+  });
+
+  window.addEventListener("orientationchange", invalidateMapSize);
+
+  initBottomSheet();
   renderRegionSummary();
   renderMarkers();
+  invalidateMapSize();
 })();

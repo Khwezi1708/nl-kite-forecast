@@ -225,6 +225,26 @@ body {
   display: none !important;
 }
 
+@media (max-width: 768px) {
+  .map-header h1 {
+    font-size: 1.1rem;
+  }
+
+  .map-header .last-updated {
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .map-header .header-actions {
+    width: 100%;
+  }
+
+  .map-header .btn-refresh {
+    width: 100%;
+    min-height: 44px;
+  }
+}
+
 @media (max-width: 720px) {
   .header {
     padding: 1rem;
